@@ -1,0 +1,19 @@
+package-lock.json
+  s_38aacd7963f9fd::t_9416bd4a3de2f3 15-1148,1167-1215,1229-1235,1431-1440,1470-1479,1510-1551,1803-1812,1868-1888,1965-1971,2103-2115,2167-2211,2293-2305,2315-2322,2354-2373,2392-2470,2476-2536
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a9ba2c9b58bef8660fcdc283e0d1960bf138e04c",
+  "prompts": {},
+  "sessions": {
+    "s_38aacd7963f9fd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_06b566180ffeSYtUCrA6kUZMKk",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "jelie <jelie@cloudflare.com>"
+    }
+  }
+}
