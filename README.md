@@ -21,8 +21,8 @@ The app also runs as a Cloudflare Worker — `public/` is served via Workers
 Static Assets, and `src/worker.js` reimplements just the `/proxy/*` handler.
 `server.js` (Express) is unaffected and still works the same way.
 
-- Requires **Node.js 22+** (`wrangler` 4.114+ dropped support for Node 20).
-  If you use `nvm`, run `nvm use` in this directory — a `.nvmrc` is included.
+- Uses whichever `wrangler` CLI you have installed globally (no project-local
+  version pinned) — install with `npm install -g wrangler` if you don't have it.
 - Local dev: `npm run dev:worker` (starts `wrangler dev` on `http://localhost:8787`)
 - Deploy: `npm run deploy` (not yet run against a live account — verify with
   `wrangler dev` first)
