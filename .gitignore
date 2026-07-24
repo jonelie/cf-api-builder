@@ -11,3 +11,7 @@ __pycache__/
 test-results/
 playwright-report/
 .playwright/
+
+# Wrangler (Cloudflare Workers) local dev state / secrets
+.wrangler/
+.dev.vars*

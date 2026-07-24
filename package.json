@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
+    "dev:worker": "wrangler dev",
+    "deploy": "wrangler deploy",
     "scrape": "python3 scraper.py --force",
     "test": "playwright test",
     "test:ui": "playwright test --ui"
@@ -15,6 +17,7 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1"
+    "@playwright/test": "^1.61.1",
+    "wrangler": "^4.114.0"
   }
 }
