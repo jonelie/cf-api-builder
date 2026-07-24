@@ -1,0 +1,20 @@
+{
+  "name": "cf-api-builder",
+  "version": "1.0.0",
+  "description": "Cloudflare API Builder — interactive curl command generator",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "scrape": "python3 scraper.py --force",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}

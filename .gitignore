@@ -1,0 +1,13 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# Build artifacts (public/endpoints.json, public/endpoints-manifest.json) are
+# intentionally committed so the app works on a fresh clone without scraping.
+
+# Playwright test output
+test-results/
+playwright-report/
+.playwright/
